@@ -15,10 +15,12 @@
 	<link href="css/font-awesome.css" rel="stylesheet">
 	<script type="text/javascript" src="js/fontAwesome-all.js"></script>        
 	<link href="css/flex-layout-attribute.min.css" rel="stylesheet"> <!-- Source: https://progressivered.com/#/fla -->    
-	<link rel="stylesheet" type="text/css" href="css/styleGithubPageMain.css">  <!-- THe main style sheet. -->
+	<link rel="stylesheet" type="text/css" href="css/styleGithubPageMain.css">  <!-- The main style sheet. -->
 
             
-
+	<link rel="stylesheet" type="text/css" href="css/styleScrollToTop.css">  <!-- The style sheet. -->
+	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>		<!--The JQuery library (jquery.org).  -->
+	<script type="text/javascript" src="js/scrollToTop.js"></script>  	<!--The JQuery to handle the scrolling.  -->
 
 </head>
 
@@ -526,7 +528,7 @@
     </div>
     <div id="footer-links" self="right">
         <ul>
-            <!-- <a href="#"><li class="wechat" target="_blank"></li></a> -->
+            <a href="#"><li class="wechat" target="_blank"></li></a>
             <a href="mailto:github_io@iangregory.com" target="_blank"><li class="mail"></li></a>
             <a href="https://github.com/DrIanGregory/" target="_blank"><li class="github"></li></a>
         </ul>
@@ -553,8 +555,13 @@
     <!---------------------------------------------------------------------------->
 	
     
-    <!--   Core JS Files   -->
+	<!--=========================================-->
+	<!-- BEGIN OF: Scroll to top: -->
+    <a href="#" class="back-to-top">
+        <span>scroll to top</span>        <i class="icon-right"></i>
+    </a>
+	<!-- END OF: Scroll to top. -->
+	<!--=========================================-->
 
-
-
-</body></html>
+	</body>
+</html>
