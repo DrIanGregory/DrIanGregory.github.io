@@ -35,7 +35,13 @@
 
         <div  id="nav-initial" self="left">
             <a href="http://www.iangregory.com"><i class="fas fa-igloo"></i></a>
-            Dr Ian Gregory
+			<script>                     
+				var dateObj = new Date();   
+				var options = { weekday: "long", year: "numeric", month: "short",
+					day: "numeric" };  
+				document.write(dateObj.toLocaleDateString("en-US", options)); 
+			</script>		
+            - Dr Ian Gregory
         </div>
 
         <div class="nav-isNotVisIfMobile">
