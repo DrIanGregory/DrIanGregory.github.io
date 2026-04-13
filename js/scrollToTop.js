@@ -48,4 +48,4 @@
     }); // End Document Ready
 
 
-})($);
+})(jQuery);
