@@ -834,7 +834,7 @@ keyframes inf-bounce {
 }
 
 #footer-links li.mail {
-	background-image: url('images/mail.svg');
+	background-image: url('../images/mail.svg');
 }
 
 #footer-links li.mail:hover {
@@ -842,7 +842,7 @@ keyframes inf-bounce {
 }
 
 #footer-links li.github {
-	background-image: url("images/github.svg");
+	background-image: url("../images/github.svg");
 }
 
 #footer-links li.github:hover {
