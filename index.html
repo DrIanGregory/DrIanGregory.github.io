@@ -1,307 +1,575 @@
-<!DOCTYPE HTML>
-<html lang="en">
-	<head>
+<!DOCTYPE html>
+<html class="no-touch">
 
-        <!-- TODO: Replace G-EMK1J68N8T with your actual GA4 Measurement ID from https://analytics.google.com -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-EMK1J68N8T"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-EMK1J68N8T');
-        </script>
+<head>
 
-		<title>Ian Gregory | Home Page</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="icon" type="image/png" href="images/logo_temp.png">
-        <link href="frameworks/fontawesome-free-5.6.3-web/css/all.css" rel="stylesheet">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    
+    <title>Projects: Ian Gregory</title>
+    
+    
+    <!--   Core CSS Files   -->
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<script type="text/javascript" src="js/fontAwesome-all.js"></script>        
+	<link href="css/flex-layout-attribute.min.css" rel="stylesheet"> <!-- Source: https://progressivered.com/#/fla -->    
+	<link rel="stylesheet" type="text/css" href="css/styleGithubPageMain.css">  <!-- The main style sheet. -->
 
-        <meta charset="UTF-8">
-        <meta name="author" content="Dr Ian Gregory">
-        <meta name="keywords" content="AI, machine learning, programming, mathematics, data scientist, fullstack engineer, programmer, project manager, quantitative analyst">
-        <meta name="description" content="Dr Ian Gregory - Data Scientist, Quantitative Analyst and Full Stack Engineer. PhD Mathematics, specialising in AI, machine learning, and quantitative finance.">
-        <meta property="og:title" content="Dr Ian Gregory | Data Scientist &amp; Quantitative Analyst">
-        <meta property="og:description" content="Data Scientist and Full Stack Engineer with expertise in AI, machine learning, and quantitative finance.">
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="https://www.iangregory.com">
+            
+	<link rel="stylesheet" type="text/css" href="css/styleScrollToTop.css">  <!-- The style sheet. -->
+	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>		<!--The JQuery library (jquery.org).  -->
+	<script type="text/javascript" src="js/scrollToTop.js"></script>  	<!--The JQuery to handle the scrolling.  -->
 
-
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" defer></script>
-
-
-        <!-------------------------------------------------->
-        <!-- The JQuery Library called fullpage.js -->
-        <link rel="stylesheet" type="text/css" href="frameworks/fullpageJS/dist/fullpage.css" />
-        <script src="frameworks/fullpageJS/vendors/easings.min.js" defer></script>
-        <script type="text/javascript" src="frameworks/fullpageJS/vendors/scrolloverflow.min.js" defer></script>
-        <script type="text/javascript" src="frameworks/fullpageJS/dist/fullpage.js" defer></script>
-		<!-------------------------------------------------->
-
-
-		<style>
-			a:link {
-				text-decoration: none;
-				color: grey;
-				font-family: "Times New Roman", Times, serif;
-				font-size: 1.2em;
-			}
-			a:visited {
-			  color: grey;
-			}
-			a:hover {
-			  color: white;
-			}
-			a:active {
-			  color: white;
-			}
-
-			/* Gallery section styles (inlined from gallery.html) */
-			#section4 .gallery-video {
-				position: absolute;
-				right: 0;
-				bottom: 0;
-				min-width: 100%;
-				min-height: 100%;
-				pointer-events: none;
-			}
-			#section4 .gallery-content {
-				position: relative;
-				z-index: 1;
-				bottom: -80%;
-				background: rgba(0, 0, 0, 0.5);
-				color: #f1f1f1;
-				width: 100%;
-				padding: 20px;
-			}
-			#section4 .gallery-btn {
-				width: 200px;
-				font-size: 18px;
-				padding: 10px;
-				border: none;
-				background: #000;
-				color: #fff;
-				cursor: pointer;
-			}
-			#section4 .gallery-btn:hover {
-				background: #ddd;
-				color: black;
-			}
-		</style>
+</head>
 
 
 
-        <!-- Make sure my custom css is loaded after frameworks to ensure it takes precedence over them. -->
-		<link rel="stylesheet" href="css/styleIndex.css">
+<body>
 
 
+    
+    
+    <div id="nav" layout="row top-left">
 
-	</head>
+		
+        <div  id="nav-initial" self="left">            
+		<a href="http://www.iangregory.com"><i class="fas fa-igloo"></i></a>
+			<script>                     
+				var dateObj = new Date();   
+				var options = { weekday: "long", year: "numeric", day: "numeric",month: "short"};  
+				document.write(dateObj.toLocaleDateString("en-AU", options)); 
+			</script>		
+            - Dr Ian Gregory
+        </div>
 
-
-
-	<body>
-
-
-		<!-- Header navigation -->
-		<nav id="header" role="navigation" aria-label="Main navigation">
-        	<div class="container">
-            	<ul class="list">
-
-                    <a href="#home" aria-label="Go to home section"><i class="fas fa-igloo"></i></a>
-
-
-                    <div class="topnav-leftfull nav-myName">
-						<script>
-                            var dateObj = new Date();
-							var options = { weekday: "long", year: "numeric", day: "numeric",month: "short"};
-							document.write(dateObj.toLocaleDateString("en-AU", options));
-                        </script>
-	              		 - Dr Ian Gregory
-                    </div>
-                    <div class="topnav-leftsmall nav-myName">
-						<script>
-                            var dateObj2 = new Date();
-							var options2 = { weekday: "long", year: "numeric", day: "numeric",month: "short"};
-							document.write(dateObj2.toLocaleDateString("en-AU", options2));
-                        </script>
-
-	              		- Dr Ian Gregory
-                    </div>
-
-                    <div class="topnav-right">
-                        <li class="list__item--yellow">
-                            <span><a href="#home">Home</a></span>
-                        </li>
-                        <li class="list__item--blue">
-                            <span><a href="#about">About</a></span>
-                        </li>
-                        <li class="list__item--red">
-                            <span><a href="#projects">Projects</a></span>
-                        </li>
-                        <li class="list__item--red">
-                            <span><a href="#resources">Resources</a></span>
-                        </li>
-                        <li class="list__item--red">
-                            <span><a href="#resume">Resume</a></span>
-                        </li>
-                        <li class="list__item--red">
-                            <span><a href="#gallery">Gallery</a></span>
-                        </li>
-
-                    </div>
-				</ul>
-            </div>
-        </nav>
-
-
-
-
-		<!-- Main content sections -->
-        <main id="fullpage" role="main">
-
-            <div class="section active" id="section0" data-anchor="home">
-	            <div id="sectionhomebackgroundimage"></div>
-
-	            <div class="section0Name">
-	            	Hi! I'm Ian Gregory
+        <div class="nav-isNotVisIfMobile">
+            <div class="item">
+                <div class="container-2">
+                    <span class="icon"><i class="fa fa-search"></i></span>
+                    <input type="text" id="search">
                 </div>
+            </div>
+            <div class="item">
+                <a href="http://driangregory.github.io">Home</a>
+            </div>
+            <div class="item">
+                <a href="http://www.iangregory.com">About Me</a>
+            </div>
+        </div>
 
-                <hr style="width:6%; border-top: 0.2em solid white; background: transparent;">
-
-                <p class="slogan">
-                   "Analyzing big data to make better and informed business decisions"
-                </p>
-
-                <div>
-                    <button type="button" class="myButtonBig" onclick="window.location.href='#about'" aria-label="Learn more about me">About Me</button>
+        <div class="nav-isVisIfMobile">
+            <div class="item">
+                <div class="container-2">
+                    <span class="icon"><i class="fa fa-search"></i></span>
+                    <input type="search" id="search">
                 </div>
-
             </div>
-
-
-            <div class="section"  id="section1" data-anchor="about">
-            <img src="/images/IanProfessional.png" alt="Dr Ian Gregory professional portrait" class="imageProfessionalIan" loading="lazy">
-
-            <hr style="width:10%; border-top: 0.1em solid white; background: transparent;">
-            <p class="aboutmespeil">
-			I attained my BSc(Physics), Masters of Quantitative Finance and PhD(Mathematics). I have worked for several large banks as an equity derivatives proprietary trader, project manager, business analyst and full stack developer. I enjoy technical challenges. A nice guy who enjoys extreme sports such as surfing, snow boarding, skate boarding, downhill mountain biking and canyoning. Further, I enjoy long walks in the park and dogs.
-            </p>
-
-                <div>
-					<button type="button" class="myButtonBig" onclick="window.location.href='#resume'" aria-label="View my resume">My resume</button>
-                </div>
-
+            <div class="item">
+                <a href="http://driangregory.github.io">Home</a>
             </div>
-
-
-            <div class="section"  id="section2" data-anchor="projects">
-				<iframe src="https://driangregory.github.io/" title="Projects portfolio hosted on GitHub Pages" allowfullscreen frameborder="0" style="top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;" ></iframe>
+            <div class="item">
+                <a href="http://www.iangregory.com">About Me</a>
             </div>
+        </div>
+	</div>
+
+    <div id="content">
+        <div class="container container--header">
+    <h1 class="h1--home-title">Dr Ian Gregory - Projects</h1>
+    <p></p>
+</div>
 
 
 
-            <div class="section"  id="section3" data-anchor="resume">
+<div class="container--grid home-container">
+    <ul layout="rows top-left" id="MixItUpF13DC5">
+        
+        
+        <!--======================================================================================================================================================-->
+        <!-- BEGIN OF: Card:  -->
+        <li class="mix" style="display: inline-block;" data-bound="">
+            <a href="https://github.com/DrIanGregory/MachineLearning-MultiLinearRegressionWithGradientDescent" target="_blank">
+    			<div class="card card--article not-visible">
+    				<div class="card-body">
+    					<div class="card-title">Multi-Linear Regression in Python from Scratch</div>
+    					<div class="card-description card-description--clamp-0">
+                            Multiple linear regression is implemented in Python using the graidient descent method for the optimisation routine. 
+                        </div>
+    				</div>
+    				<div class="card-hero">
+    					<div class="card-image card-image--size-185 loaded" data-url="images/linearRegressionFit.gif" style="background-image: url(&quot;images/linearRegressionFit.gif&quot;); opacity: 1;"></div>
+    				</div>
+    			    <div class="card-footer">
+                        <div class="card-footer-wrapper" layout="row bottom-left">
+                            <div class="card-type is-notShownIfHover">2018</div>
+                            <div class="card-tag is-notShownIfHover">Machine Learning</div>
 
-				<iframe src="resume.html" title="Dr Ian Gregory - Resume / CV" allowfullscreen frameborder="0" style="top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;" ></iframe>
+							    <div class="card-tag is-notShownIfHover">
 
-            </div>
+                            </div>
+                            <div class="card-tag is-shownIfHover">
+                                
+                                    machine&nbsp;learning &nbsp;&nbsp;
+                                
+                            </div>
+                            <div class="card-logo is-shownIfHover" self="right">TEST</div>
+                        </div>
+    			    </div>
+    		     </div>
+		    </a>
+        </li>
+        <!-- END OF: Card.  -->        
+        <!--======================================================================================================================================================-->
+        
+        
+        
+        
+        <!--======================================================================================================================================================-->
+        <!-- BEGIN OF: Card:  -->        
+        <li class="mix" style="display: inline-block;" data-bound="">
+            <a href="https://github.com/DrIanGregory/MachineLearning-LogisticRegressionWithGradientDescentOrNewton" target="_blank">
+    			<div class="card card--article not-visible">
+    				<div class="card-body">
+    					<div class="card-title">Logistic Regression in Python from Scratch</div>
+    					<div class="card-description card-description--clamp-0">
+                            Demonstration of solving Logistic regression using Gradient Descent optimisation or Newton Raphson optimisation allowing for Ridge and Lasso regularisation implemented in Python from scratch.
+                        </div>
+    				</div>
+    				<div class="card-hero">
+    					<div class="card-image card-image--size-185 loaded" data-url="images/logisticRegressionBoundaryFancy.png" style="background-image: url(&quot;images/logisticRegressionBoundaryFancy.png&quot;); opacity: 1;"></div>
+    				</div>
+    			    <div class="card-footer">
+                        <div class="card-footer-wrapper" layout="row bottom-left">
+                            <div class="card-type is-notShownIfHover">2018</div>
+                            <div class="card-tag is-notShownIfHover">Machine Learning</div>
+			    <div class="card-tag is-notShownIfHover">
+                                <div class="like-button-index">
+                                
+                                
+                                    <!-- LikeBtn.com BEGIN -->
 
-            <div class="section"  id="section4" data-anchor="gallery">
-				<video autoplay muted loop class="gallery-video" id="galleryVideo">
-					<source src="/video/slidingDownWaterfall.mp4" type="video/mp4">
-					Your browser does not support HTML5 video.
-				</video>
-				<div class="gallery-content">
-					<h2>Gallery</h2>
-					<p>Collection of images depicting my life.</p>
-					<button class="gallery-btn" id="galleryBtn" aria-label="Pause or play the background video">Pause Background</button>
-				</div>
-            </div>
+                                    <!-- LikeBtn.com END -->
+                                </div>
+                            </div>
+                            <div class="card-tag is-shownIfHover">
+                                
+                                    machine&nbsp;learning &nbsp;&nbsp;
+                                
+                                    nlp &nbsp;&nbsp;
+                                
+                            </div>
+                            <div class="card-logo is-shownIfHover" self="right"></div>
+                        </div>
+    			    </div>
+    		     </div>
+		    </a>
+        </li>        
+        <!-- END OF: Card.  -->        
+        <!--======================================================================================================================================================-->        
+        
+
+        
+        <!--======================================================================================================================================================-->
+        <!-- BEGIN OF: Card:  -->
+        <li class="mix" style="display: inline-block;" data-bound="">
+            <a href="https://github.com/DrIanGregory/MachineLearning-SupportVectorMachines" target="_blank">
+    			<div class="card card--article not-visible">
+    				<div class="card-body">
+    					<div class="card-title">Support Vector Machines in Python from Scratch</div>
+    					<div class="card-description card-description--clamp-0">
+						Estimation from scratch Support Vector Machines for linear, polynomial and Gaussian kernels utilising the quadratic programming optimisation algorithm from library CVXOPT.
+                        </div>
+    				</div>
+    				<div class="card-hero">
+    					<div class="card-image card-image--size-185 loaded" data-url="images/SupportVectorMachinesCustomLibraryPolynomial.png" style="background-image: url(&quot;images/SupportVectorMachinesCustomLibraryPolynomial.png&quot;); opacity: 1;"></div>
+    				</div>
+    			    <div class="card-footer">
+                        <div class="card-footer-wrapper" layout="row bottom-left">
+                            <div class="card-type is-notShownIfHover">2018</div>
+                            <div class="card-tag is-notShownIfHover">Machine Learning</div>
+			    <div class="card-tag is-notShownIfHover">
+                                <div class="like-button-index">
+                                    <!-- LikeBtn.com BEGIN -->
+
+                                    <!-- LikeBtn.com END -->
+                                </div>
+                            </div>
+                            <div class="card-tag is-shownIfHover">
+                                
+                                    machine&nbsp;learning &nbsp;&nbsp;
+                                
+                            </div>
+                            <div class="card-logo is-shownIfHover" self="right"></div>
+                        </div>
+    			    </div>
+    		     </div>
+		    </a>
+        </li>
+        <!-- END OF: Card.  -->
+        <!--======================================================================================================================================================-->
+        
+
+        
+        
+        <!--======================================================================================================================================================-->
+        <!-- BEGIN OF: Card:  -->        
+        <li class="mix" style="display: inline-block;" data-bound="">
+            <a href="">
+    			<div class="card card--article not-visible">
+    				<div class="card-body">
+    					<div class="card-title">Decision Trees in Python from Scratch</div>
+    					<div class="card-description card-description--clamp-0">
+						Performing decision tree analysis in Python from scratch.
+                        </div>
+    				</div>
+    				<div class="card-hero">
+    					<div class="card-image card-image--size-185 loaded" data-url="images/linearRegressionFit.gif" style="background-image: url(&quot;images/linearRegressionFit.gif&quot;); opacity: 1;"></div>
+    				</div>
+    			    <div class="card-footer">
+                        <div class="card-footer-wrapper" layout="row bottom-left">
+                            <div class="card-type is-notShownIfHover">2018</div>
+                            <div class="card-tag is-notShownIfHover">Machine Learning</div>
+			    <div class="card-tag is-notShownIfHover">
+                                <div class="like-button-index">
+                                    <!-- LikeBtn.com BEGIN -->
+
+                                    <!-- LikeBtn.com END -->
+                                </div>
+                            </div>
+                            <div class="card-tag is-shownIfHover">
+                                
+                                    machine&nbsp;learning &nbsp;&nbsp;
+                                
+                            </div>
+                            <div class="card-logo is-shownIfHover" self="right"></div>
+                        </div>
+    			    </div>
+    		     </div>
+		    </a>
+        </li>
+        <!-- END OF: Card.  -->
+        <!--======================================================================================================================================================-->
+        
+        
+
+        <!--======================================================================================================================================================-->
+        <!-- BEGIN OF: Card:  -->            
+        <li class="mix" style="display: inline-block;" data-bound="">
+            <a href="">
+    			<div class="card card--article not-visible">
+    				<div class="card-body">
+    					<div class="card-title">Naive Bayes implementation in Python</div>
+    					<div class="card-description card-description--clamp-0">
+						Implementing Naive Bayes in Python.
+                        </div>
+    				</div>
+    				<div class="card-hero">
+    					<div class="card-image card-image--size-185 loaded" data-url="images/logisticRegressionBoundaryFancy.png" style="background-image: url(&quot;images/logisticRegressionBoundaryFancy.png&quot;); opacity: 1;"></div>
+    				</div>
+    			    <div class="card-footer">
+                        <div class="card-footer-wrapper" layout="row bottom-left">
+                            <div class="card-type is-notShownIfHover">2018</div>
+                            <div class="card-tag is-notShownIfHover">Machine Learning</div>
+			    <div class="card-tag is-notShownIfHover">
+                                <div class="like-button-index">
+                                    <!-- LikeBtn.com BEGIN -->
+
+                                    <!-- LikeBtn.com END -->
+                                </div>
+                            </div>
+                            <div class="card-tag is-shownIfHover">
+                                
+                                    machine&nbsp;learning &nbsp;&nbsp;
+                                
+                            </div>
+                            <div class="card-logo is-shownIfHover" self="right"></div>
+                        </div>
+    			    </div>
+    		     </div>
+		    </a>
+        </li>
+        <!-- END OF: Card.  -->
+        <!--======================================================================================================================================================-->
+        
+        
+        
+        
+        
+        <!--======================================================================================================================================================-->
+        <!-- BEGIN OF: Card:  -->
+        <li class="mix" style="display: inline-block;" data-bound="">
+            <a href="">
+    			<div class="card card--article not-visible">
+    				<div class="card-body">
+    					<div class="card-title">Linear and Quadratic Discriminant Analysis in Python</div>
+    					<div class="card-description card-description--clamp-0">
+                            Implementation of Linear and Quadratic Discriminant analysis in Python.
+                        </div>
+    				</div>
+    				<div class="card-hero">
+    					<div class="card-image card-image--size-185 loaded" data-url="images/SupportVectorMachinesCustomLibraryPolynomial.png" style="background-image: url(&quot;images/SupportVectorMachinesCustomLibraryPolynomial.png&quot;); opacity: 1;"></div>
+    				</div>
+    			    <div class="card-footer">
+                        <div class="card-footer-wrapper" layout="row bottom-left">
+                            <div class="card-type is-notShownIfHover">2018</div>
+                            <div class="card-tag is-notShownIfHover">Machine Learning</div>
+			    <div class="card-tag is-notShownIfHover">
+                                <div class="like-button-index">
+                                    <!-- LikeBtn.com BEGIN -->
+
+                                    <!-- LikeBtn.com END -->
+                                </div>
+                            </div>
+                            <div class="card-tag is-shownIfHover">
+                                
+                                    remote&nbsp;sensing &nbsp;&nbsp;
+                                
+                                    cloud &nbsp;&nbsp;
+                                
+                            </div>
+                            <div class="card-logo is-shownIfHover" self="right"></div>
+                        </div>
+    			    </div>
+    		     </div>
+		    </a>
+        </li>
+        <!-- END OF: Card.  -->
+        <!--======================================================================================================================================================-->
+        
+        
+        
+        <!--======================================================================================================================================================-->
+        <!-- BEGIN OF: Card:  -->        
+        <li class="mix" style="display: inline-block;" data-bound="">
+            <a href="">
+    			<div class="card card--article not-visible">
+    				<div class="card-body">
+    					<div class="card-title">K-Means Clustering in Python from Scratch</div>
+    					<div class="card-description card-description--clamp-0">
+                            Implementation of K-Mens clustering in Python from scratch.
+                        </div>
+    				</div>
+    				<div class="card-hero">
+    					<div class="card-image card-image--size-185 loaded" data-url="images/linearRegressionFit.gif" style="background-image: url(&quot;images/linearRegressionFit.gif&quot;); opacity: 1;"></div>
+    				</div>
+    			    <div class="card-footer">
+                        <div class="card-footer-wrapper" layout="row bottom-left">
+                            <div class="card-type is-notShownIfHover">2018</div>
+                            <div class="card-tag is-notShownIfHover">Machine Learning</div>
+			    <div class="card-tag is-notShownIfHover">
+                                <div class="like-button-index">
+                                    <!-- LikeBtn.com BEGIN -->
+
+                                    <!-- LikeBtn.com END -->
+                                </div>
+                            </div>
+                            <div class="card-tag is-shownIfHover">
+                                
+                                    machine&nbsp;learning &nbsp;&nbsp;
+                                
+                            </div>
+                            <div class="card-logo is-shownIfHover" self="right"></div>
+                        </div>
+    			    </div>
+    		     </div>
+		    </a>
+        </li>
+        <!-- END OF: Card.  -->
+        <!--======================================================================================================================================================-->
+        
+        
+        
+        <!--======================================================================================================================================================-->
+        <!-- BEGIN OF: Card:  -->         
+        <li class="mix" style="display: inline-block;" data-bound="">
+            <a href="">
+    			<div class="card card--article not-visible">
+    				<div class="card-body">
+    					<div class="card-title">Deep Learning in Python from Scratch</div>
+    					<div class="card-description card-description--clamp-0">
+                            Implementation of Deep Learning in Python from Scratch.
+                        </div>
+    				</div>
+    				<div class="card-hero">
+    					<div class="card-image card-image--size-185 loaded" data-url="images/logisticRegressionBoundaryFancy.png" style="background-image: url(&quot;images/logisticRegressionBoundaryFancy.png&quot;); opacity: 1;"></div>
+    				</div>
+    			    <div class="card-footer">
+                        <div class="card-footer-wrapper" layout="row bottom-left">
+                            <div class="card-type is-notShownIfHover">2018</div>
+                            <div class="card-tag is-notShownIfHover">Machine Learning</div>
+			    <div class="card-tag is-notShownIfHover">
+                                <div class="like-button-index">
+                                    <!-- LikeBtn.com BEGIN -->
+
+                                    <!-- LikeBtn.com END -->
+                                </div>
+                            </div>
+                            <div class="card-tag is-shownIfHover">
+                                
+                                    life &nbsp;&nbsp;
+                                
+                                    data&nbsp;mining &nbsp;&nbsp;
+                                
+                            </div>
+                            <div class="card-logo is-shownIfHover" self="right"></div>
+                        </div>
+    			    </div>
+    		     </div>
+		    </a>
+        </li>
+        <!-- END OF: Card.  -->
+        <!--======================================================================================================================================================-->
+        
+        
+        
+        <!--======================================================================================================================================================-->
+        <!-- BEGIN OF: Card:  -->                 
+        <li class="mix" style="display: inline-block;" data-bound="">
+            <a href="">
+    			<div class="card card--article not-visible">
+    				<div class="card-body">
+    					<div class="card-title">Implementation of Convolutional Neural Network Implemented in Python from Scratch</div>
+    					<div class="card-description card-description--clamp-0">
+                            Implementation of Convolutional Neural Networks in Python from scratch.
+                        </div>
+    				</div>
+    				<div class="card-hero">
+    					<div class="card-image card-image--size-185 loaded" data-url="images/SupportVectorMachinesCustomLibraryPolynomial.png" style="background-image: url(&quot;images/SupportVectorMachinesCustomLibraryPolynomial.png&quot;); opacity: 1;"></div>
+    				</div>
+    			    <div class="card-footer">
+                        <div class="card-footer-wrapper" layout="row bottom-left">
+                            <div class="card-type is-notShownIfHover">2018</div>
+                            <div class="card-tag is-notShownIfHover">Machine Learning</div>
+			    <div class="card-tag is-notShownIfHover">
+                                <div class="like-button-index">
+                                    <!-- LikeBtn.com BEGIN -->
+
+                                    <!-- LikeBtn.com END -->
+                                </div>
+                            </div>
+                            <div class="card-tag is-shownIfHover">
+                                
+                                    big&nbsp;data &nbsp;&nbsp;
+                                
+                                    nlp &nbsp;&nbsp;
+                                
+                                    python &nbsp;&nbsp;
+                                
+                            </div>
+                            <div class="card-logo is-shownIfHover" self="right"></div>
+                        </div>
+    			    </div>
+    		     </div>
+		    </a>
+        </li>
+        <!-- END OF: Card.  -->
+        <!--======================================================================================================================================================-->        
+        
+        
+        
+        <li class="mix" style="display: inline-block;" data-bound="">
+            <a href="">
+    			<div class="card card--article not-visible">
+    				<div class="card-body">
+    					<div class="card-title">Generative Adversarial Networks (GAN) implemented in Python</div>
+    					<div class="card-description card-description--clamp-0">
+                            An implementation of Generative Adversarial Networks (GAN) implemented in Python from scratch.
+                        </div>
+    				</div>
+    				<div class="card-hero">
+    					<div class="card-image card-image--size-185" data-url="images/manandcat2.gif"></div>
+    				</div>
+    			    <div class="card-footer">
+                        <div class="card-footer-wrapper" layout="row bottom-left">
+                            <div class="card-type is-notShownIfHover">2018</div>
+                            <div class="card-tag is-notShownIfHover">Machine Learning</div>
+			    <div class="card-tag is-notShownIfHover">
+                                <div class="like-button-index">
+                                    <!-- LikeBtn.com BEGIN -->
+
+                                    <!-- LikeBtn.com END -->
+                                </div>
+                            </div>
+                            <div class="card-tag is-shownIfHover">
+                                
+                                    machine&nbsp;learning &nbsp;&nbsp;
+                                
+                            </div>
+                            <div class="card-logo is-shownIfHover" self="right"></div>
+                        </div>
+    			    </div>
+    		     </div>
+		    </a>
+        </li>
+        
+        
+    </ul>
+</div>
 
 
+<div class="container--call-to-action" style="text-align: center; margin: 0px 0 30px 0;">
+  
+    <span><button class="button button--active">«</button></span>
+  
+
+  
+    
+      <em><button class="button button--active page-num">1</button></em>
+    
+  
+    
+      <a href="https://driangregory.github.io/page2/"><button class="button button--active">2</button></a>
+    
+  
+
+  
+    <a href="https://driangregory.github.io/page2/"><button class="button button--active">»</button></a>
+  
+</div>
 
 
-            <div class="section"  id="section6" data-anchor="resources">
-		              <iframe class="resourcesFrame" src="resources/resources_login.php" title="Resources login"></iframe>
-            </div>
+<div id="footer" layout="rows center-left">
+    <div id="end-mark">
+        <!-- <div class="end-mark-icon"></div> -->
+        <p class="copyright">Dr Ian Gregory © 2018</p>
+    </div>
+    <div id="footer-links" self="right">
+        <ul>            
+            <a href="mailto:github_io@iangregory.com" target="_blank"><li class="mail"></li></a>
+            <a href="https://github.com/DrIanGregory/" target="_blank"><li class="github"></li></a>
+        </ul>
+    </div>
+</div>
 
 
-		</main>
+    </div>
+    
 
 
+    
+    <!---------------------------------------------------------------------------->
+    <!-- Begin of: Google Website Analytics - Global site tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131434156-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+    
+        gtag('config', 'UA-131434156-1');
+    </script>
+    <!-- End of: Google Website Analytics - Global site tag (gtag.js) -->
+    <!---------------------------------------------------------------------------->
+	
+    
+	<!--=========================================-->
+	<!-- BEGIN OF: Scroll to top: -->
+    <a href="#" class="back-to-top">
+        <span>scroll to top</span>        <i class="icon-right"></i>
+    </a>
+	<!-- END OF: Scroll to top. -->
+	<!--=========================================-->
 
-		<!-- Footer -->
-        <footer id="footer" role="contentinfo">
-            <div class="container">
-
-                <div class="social-icons" aria-label="Social media links">
-
-		            <li><a href="https://www.facebook.com/TheIanGregory" aria-label="Facebook"><span class="tooltip"> <i class="fab fa-facebook-f"></i><span class="tooltiptext">My Facebook</span></span></a></li>
-		            <li><a href="https://twitter.com/Dr_Ian_Gregory" aria-label="Twitter"><span class="tooltip"> <i class="fab fa-twitter"></i><span class="tooltiptext">My Twitter</span></span></a></li>
-       <li><a href="https://www.youtube.com/channel/UC2mVjOttvVniOi1A13f2lwQ/featured" aria-label="YouTube"><span class="tooltip"> <i class="fab fa-youtube"></i><span class="tooltiptext">My YouTube Channel</span></span></a></li>
-                    <li><a href="https://www.linkedin.com/in/dr-ian-gregory/" aria-label="LinkedIn"><span class="tooltip"> <i class="fab fa-linkedin"></i><span class="tooltiptext">My LinkedIn</span></span></a></li>
-                    <li><a href="https://github.com/DrIanGregory" aria-label="GitHub"><span class="tooltip"> <i class="fab fa-github"></i><span class="tooltiptext">My Github</span></span></a></li>
-					<li><a href="https://www.instagram.com/theiangregory/" aria-label="Instagram"><span class="tooltip"> <i class="fab fa-instagram"></i><span class="tooltiptext">My Instagram</span></span></a></li>
-					<li><a href="https://www.reddit.com/user/a3th30n" aria-label="Reddit"><span class="tooltip"> <i class="fab fa-reddit"></i><span class="tooltiptext">My Reddit</span></span></a></li>
-
-
-
-
-				<div class="footerbottom-right">
-                    <ul class="list">
-                        <li class="list__item--yellow">
-	    	                <a href="#home"><span>Home</span></a>
-    	                </li>
-
-                        <li class="list__item--blue">
-                            <a href="#about"><span>About</span></a>
-                        </li>
-
-                        <li class="list__item--red">
-                            <a href="mailto:employment@iangregory.com"><span>Contact</span></a>
-                        </li>
-					</ul>
-				</div>
-                </div>
-			</div>
-		</footer>
-
-
-		<!-- Fullpage.js initialization and gallery video control -->
-		<script type="text/javascript">
-			document.addEventListener('DOMContentLoaded', function() {
-				// Initialize fullpage.js
-	            var myFullpage = new fullpage('#fullpage', {
-	                anchors: ['home', 'about', 'projects', 'resume', 'gallery', 'resources'],
-	                sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke', '#000', '#333'],
-	                navigation: true,
-	                navigationPosition: 'right',
-	                navigationTooltips: ['Home', 'About', 'Projects', 'Resume', 'Gallery', 'Resources'],
-	                autoScrolling: true,
-	                css3: true,
-	                keyboardScrolling: true,
-	                controlArrows: true,
-	                licenseKey: 'gplv3-license'
-	            });
-
-				// Gallery video pause/play
-				var video = document.getElementById('galleryVideo');
-				var btn = document.getElementById('galleryBtn');
-				if (btn && video) {
-					btn.addEventListener('click', function() {
-						if (video.paused) {
-							video.play();
-							btn.textContent = 'Pause Background';
-						} else {
-							video.pause();
-							btn.textContent = 'Play Background';
-						}
-					});
-				}
-			});
-        </script>
-
-
-
-    </body>
+	</body>
 </html>
